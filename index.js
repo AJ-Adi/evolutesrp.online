@@ -19,5 +19,5 @@ window.addEventListener('load', function() {
 });
 
 function connectToFivem() {
-  window.open("fivem://connect/evolutesrp.online:30120", "_self");
+  window.open("fivem://connect/play.evolutesrp.online:30120", "_self");
 }
