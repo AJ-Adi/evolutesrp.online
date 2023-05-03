@@ -273,7 +273,7 @@ header {
   height: 85vh; /* Set height of the container to 100% of viewport height */
 }
 
-.staffbtn, .policebtn, .emsbtn {
+.staffbtn, .policebtn, .pdmbtn {
   padding: 20px 40px;
   border: 1px solid #edf0f1;
   border-radius: 50px;
@@ -294,7 +294,7 @@ header {
 }
 
 
-.staffbtn:hover, .policebtn:hover, .emsbtn:hover {
+.staffbtn:hover, .policebtn:hover, .pdmbtn:hover {
   background-color: #ffffff;
   color: #000000;
   
@@ -317,10 +317,10 @@ header {
 
 .app h1 {
   /* font-size: 3.5rem; */
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 body::-webkit-scrollbar {
