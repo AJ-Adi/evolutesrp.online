@@ -265,7 +265,7 @@ header {
 }
 
 body::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 body::-webkit-scrollbar-track {

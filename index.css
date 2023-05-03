@@ -318,4 +318,24 @@
     background: #ffffff;
   }
   
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
   
+  body::-webkit-scrollbar-track {
+    background: #151419;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #00ff00;
+    border-radius: 20px;
+    border: 3px solid #151419;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #ffffff;
+  }
+  
+  body::-webkit-scrollbar-thumb:active {
+    background-color: #ffffff;
+  }

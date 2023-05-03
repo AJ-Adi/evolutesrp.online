@@ -266,3 +266,81 @@ header {
   background: #ffffff;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh; /* Set height of the container to 100% of viewport height */
+}
+
+.staffbtn, .policebtn, .emsbtn {
+  padding: 20px 40px;
+  border: 1px solid #edf0f1;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  margin: 30px; /* add some margin between buttons */
+  width: 300px; /* set the same width for all buttons */
+  height: 80px;
+  text-align: center;
+  font-style: bold;
+}
+
+
+.staffbtn:hover, .policebtn:hover, .emsbtn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  
+}
+
+@media (max-width: 768px) { /* Change flex-direction to column for smaller screens */
+  .button-container {
+    flex-direction: column;
+  }
+}
+
+.app {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 50px;
+  left: 0;
+  color: #00ff00;
+}
+
+.app h1 {
+  /* font-size: 3.5rem; */
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #151419;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00ff00;
+  border-radius: 20px;
+  border: 3px solid #151419;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: #ffffff;
+}
